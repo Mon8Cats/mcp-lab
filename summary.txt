@@ -1,0 +1,14 @@
+.env . -> crearte .env?
+
+python main.py // run a python file
+
+Serper: The world's Festest&Cheapest Google Search API
+
+
+AI Agent Frameworks
+LangChain, AutoGPT, BabyAGI, Cammel, SuperAGI, CrewAI
+
+LangChain
+pip install LangChain 
+pip install langchain-openai
+pip install langain-community
