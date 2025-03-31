@@ -24,3 +24,35 @@ ollama pull mistral
 
 python -m venv venv
 venv\Scripts\activate
+
+.git/config
+    [credential]
+	username = SteveKimMHS
+
+
+How to Build a Local AI Agent With Python (Ollama, LangChain & RAG)
+llama3.2 (small)
+ollama pull llama3.2
+ollama pull mxbai-embed-large
+
+
+Browser Use: This New AI Agent Can Do Anything (Full AI Scraping Tutorial)
+= a Framework = llm controls browser?
+pip install browser-use 
+playwright install 
+main.py
+pick an llm?
+    claude, antropic, gpt, local llm 
+.env file 
+    api keys 
+
+External BrowserConfig? 
+local browser? 
+    chrome_instance_path="/Applications/Google Chrome.App/Contents/MacOs/google Chrome", // executable path
+
+pass the browser to the agent? 
+
+structure out put?
+parse information 
+
+
