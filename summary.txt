@@ -12,3 +12,12 @@ LangChain
 pip install LangChain 
 pip install langchain-openai
 pip install langain-community
+
+pip install -r requirements.txt
+ollama --version
+brew upgrade ollama
+curl -fsSL https://ollama.com/install.sh | sh
+ollama list
+python mcp_server.py
+python mcp_client.py
+ollama pull mistral

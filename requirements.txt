@@ -2,3 +2,7 @@ fastmcp
 python-dotenv
 requests
 bs4
+langchain-community
+langchain-ollama
+langchain
+flask
