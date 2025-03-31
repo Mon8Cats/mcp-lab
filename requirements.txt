@@ -6,3 +6,5 @@ langchain-community
 langchain-ollama
 langchain
 flask
+#socket
+#threading

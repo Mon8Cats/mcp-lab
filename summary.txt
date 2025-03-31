@@ -21,3 +21,6 @@ ollama list
 python mcp_server.py
 python mcp_client.py
 ollama pull mistral
+
+python -m venv venv
+venv\Scripts\activate
