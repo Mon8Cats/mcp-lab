@@ -1,3 +1,68 @@
+MCP:
+    Resources: docs 
+    Tools: Tools 
+    Prompts: 
+    Communication
+        Stdio:
+        SSE: 
+McP host/client (Cursor, Windsurf, Claude): MCP host running MCP client 
+    -> method: "tools/call" -> 
+MCP server (langraph_query_tool()): locally running server process defined by FastMCP
+    -> return 
+
+MCP inspector?
+
+
+
+
+MCP with langchain?
+    MCP tool connected to 
+    Langraph query tool (a MCP tool)
+    Cusor
+    Windsurf
+    Claude Desktop
+
+Semantic Similarity Search?
+Index - Vector Store?
+
+from langchain_core.tools import tool
+@tool
+def langraph_query_tool(query: str):
+    """
+    aaaa
+    """
+    retriever = SkLearnVectorStore(
+    embedding=OpenAIEmbeddings(model=)
+    persit_path=os.getCwd()
+    serializer= 
+    )
+
+    relevant_docs=retriever.invoke(query)
+    formatted_context=
+    return formatted_context
+
+Tools -{bind_tools}-> LangChain ChatModel
+Tools -{MCP}-> AI Apps (IDE, Claude Desktop)
+
+
+Gemini 2.5 update?
+Cline?
+    API PRovider: Google Gemini
+    Gemini API Key: ender here 
+    Custom Instructions: 
+
+RooCode?
+
+MCP Motivation:
+    In -> AI Agent -> out
+        AI Agent -> Context, Tools
+
+
+
+
+
+
+
 .env . -> crearte .env?
 
 python main.py // run a python file
